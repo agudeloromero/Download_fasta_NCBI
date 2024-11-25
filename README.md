@@ -24,7 +24,7 @@ python download_ncbi_fasta.py NC_074663.1 user@example.com output_folder
 
 **(2) Multiple references**
 
-Create a textfile (ie ids.txt) with one ID per line, like this:
+Create a text file (ie ids.txt) with one ID per line, like this:
 ```
 NC_029066.1
 NC_002484.2
