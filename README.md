@@ -45,10 +45,10 @@ python download_ncbi_fasta.py ids.txt user@example.com output_folder
 
 Fasta files will be saved in the specified folder (in this case output_folder), with filenames corresponding to the reference IDs.
 ```
-ls output_folder
-#NC_074663.1.fasta
-#NC_002695.1.fasta
-#NC_000913.3.fasta
+ll output_folder
+NC_074663.1.fasta
+NC_002695.1.fasta
+NC_000913.3.fasta
 ```
 
 
