@@ -26,9 +26,9 @@ python download_ncbi_fasta.py NC_074663.1 user@example.com output_folder
 
 Create a textfile (ie ids.txt) with one ID per line, like this:
 ```
-NC_074663.1
-NC_002695.1
-NC_000913.3
+NC_029066.1
+NC_002484.2
+NC_030929.1
 ```
 
 ---
@@ -46,9 +46,9 @@ python download_ncbi_fasta.py ids.txt user@example.com output_folder
 Fasta files will be saved in the specified folder (in this case output_folder), with filenames corresponding to the reference IDs.
 ```
 ll output_folder
-NC_074663.1.fasta
-NC_002695.1.fasta
-NC_000913.3.fasta
+NC_029066.1.fasta
+NC_002484.2.fasta
+NC_030929.1.fasta
 ```
 
 
