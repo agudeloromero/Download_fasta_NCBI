@@ -1,13 +1,12 @@
-# Download_fasta_NCBI
+# Download fasta files from NCBI
 Python script for downloading GenBank fasta files. It can be used for (1) downloading a single reference or (2) multiple ones.
 
-Download and give permissions
+**Download (here)[] and give permissions**
 ```
 chmod +x download_ncbi_fasta.py
 ```
 
-#Examples
-
+**Examples**
 (1) Single reference
 ```
 python download_ncbi_fasta.py NC_074663.1 user@example.com output_folder
@@ -22,8 +21,18 @@ cat ids.txt
 #NC_000913.3
 ```
 
-Run script:
+**Run script:***
 ```
 python download_ncbi_fasta.py ids.txt user@example.com output_folder
 ```
+
+**Output:***
+Fasta files will be saved in the specified folder, in this case output_folder, using the filenames of the reference.
+```
+ls output_folder
+#NC_074663.1.fasta
+#NC_002695.1.fasta
+#NC_000913.3.fasta
+```
+
 
