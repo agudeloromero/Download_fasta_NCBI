@@ -1,7 +1,7 @@
 # Download fasta files from NCBI
 Python script for downloading GenBank fasta files. It can be used for (1) downloading a single reference or (2) multiple ones.
 
-**Download (here)[] and give permissions**
+**Download [here](https://github.com/agudeloromero/Download_fasta_NCBI/blob/main/script/download_ncbi_fasta.py) and give permissions**
 ```
 chmod +x download_ncbi_fasta.py
 ```
