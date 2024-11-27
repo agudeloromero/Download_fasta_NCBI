@@ -61,3 +61,20 @@ CSV files containing metadata for each group will be saved in the output directo
 ```bash
 /dir/my_output/dsDnaViruses_genbank_metadata.csv
 ```
+
+## **Help:**
+
+For more information run help.
+```bash
+./download_viral_genomes.py --help
+usage: download_viral_genomes.py [-h] [-d {genbank,refseq}] -e EMAIL [-g GENOME_TYPE] [-o OUTPUT]
+
+Download viral genomes and metadata from NCBI.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -d {genbank,refseq}, --database {genbank,refseq}
+  -e EMAIL, --email EMAIL
+  -g GENOME_TYPE, --genome-type GENOME_TYPE
+  -o OUTPUT, --output OUTPUT
+```
