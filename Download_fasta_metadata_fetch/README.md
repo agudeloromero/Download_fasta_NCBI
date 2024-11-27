@@ -4,7 +4,7 @@ This Python script downloads viral genomes in FASTA format from NCBI, as well as
 1. RefSeq database.
 2. GenBank database.
 
-## **Setup**
+## **Setup:**
 
 **1. Download the script from [here](https://github.com/agudeloromero/Download_fasta_NCBI/blob/main/Download_fasta_metadata_fetch/download_viral_genomes_metadata_NCBI_fetch.py) and give it execution permissions on your machine:**
 ```
