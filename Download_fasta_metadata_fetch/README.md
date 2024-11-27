@@ -25,6 +25,7 @@ pip install biopython argparse
 ```
 
 **3. Prepare for Execution**
+
 Make sure you have the following information ready:
 
 NCBI Email Requirement: You must provide an email address as NCBI requires it to identify users for API access.
