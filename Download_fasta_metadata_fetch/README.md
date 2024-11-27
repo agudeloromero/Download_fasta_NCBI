@@ -20,7 +20,7 @@ The script uses Python 3 and the following Python packages:
 * argparse
 
 Install them using `pip` (or your environment's package manager):
-```bash
+``` bash
 pip install biopython argparse
 ```
 
