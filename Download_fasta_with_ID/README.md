@@ -6,7 +6,7 @@ This Python script downloads GenBank FASTA files. It supports:
 
 **Setup**
 
-Download the script from [here](https://github.com/agudeloromero/Download_fasta_NCBI/blob/main/script/download_ncbi_fasta.py) and give it execution permissions on your machine:
+Download the script from [here](https://github.com/agudeloromero/Download_fasta_NCBI/blob/main/Download_fasta_with_ID/download_ncbi_fasta.py) and give it execution permissions on your machine:
 ```
 chmod +x download_ncbi_fasta.py
 ```
