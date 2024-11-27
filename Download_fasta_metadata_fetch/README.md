@@ -1,4 +1,4 @@
-# Download FASTA files and metadata from NCBI using esearch and fetch
+# Download Viral Genomes FASTA files and metadata from NCBI using esearch and fetch
 
 This Python script downloads viral genomes in FASTA format from NCBI, as well as the metadata. It supports:
 1. RefSeq database.
