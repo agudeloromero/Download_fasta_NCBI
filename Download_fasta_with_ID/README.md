@@ -1,4 +1,4 @@
-# Download FASTA files from NCBI
+# Download FASTA files from NCBI with an ID
 
 This Python script downloads GenBank FASTA files. It supports:
 1. Downloading a single reference ID.
