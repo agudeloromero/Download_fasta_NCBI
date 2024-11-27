@@ -71,7 +71,6 @@ Extracts all `.fna.gz` files in the `output_directory`.
 Combines all `.fna` files into a single multi-FASTA file for each database.
 
 **3. Cleanup:**
-
 Removes intermediate files and directories to save space.
 
 Example Output Directory Structure (Post-Execution):
