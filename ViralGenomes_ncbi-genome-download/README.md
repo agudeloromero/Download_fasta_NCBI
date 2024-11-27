@@ -50,14 +50,14 @@ The script will create a multi FASTA files with all the viral sequences:
 
 Fasta files for each group will be saved in the specified output directory. Example:
 ```bash
-/dir/out_complete/viral_complete_genomes_{database}.fna
+/dir/output_directory/viral_complete_genomes_{database}.fna
 ```
 
 **2. For Metadata:**
 
 CSV files containing metadata for each group will be saved in the output directory. Example:
 ```bash
-/dir/out_complete/viral_complete_genomes_metadata_{database}.tsv
+/dir/output_directory/viral_complete_genomes_metadata_{database}.tsv
 ```
 
 ## **Post-Processing Steps (Handled by the Script)**
