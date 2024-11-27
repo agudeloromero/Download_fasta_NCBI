@@ -29,8 +29,6 @@ Make sure you have the following information ready:
 
 NCBI Email Requirement: You must provide an email address as NCBI requires it to identify users for API access.
 
----
-
 ## **Run script:**
 
 The script accepts several parameters, including the database (`genbank` or `refseq`), genome type (e.g., "complete genome"), and output directory.
@@ -46,8 +44,6 @@ For the `genbank` database:
 ```bash
 ./download_viral_genomes.py -d genbank -e user@example.com -g "complete genome" -o /path/to/output_directory
 ```
-
----
 
 ## **Output:**
 
