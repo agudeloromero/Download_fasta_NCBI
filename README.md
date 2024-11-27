@@ -1,54 +1,16 @@
 # Download FASTA files from NCBI
 
-This Python script downloads GenBank FASTA files. It supports:
-1. Downloading a single reference ID.
-2. Downloading multiple references from a file.
+This is a compilation of script for downloading fasta files from NCBI:
 
-**Setup**
 
-Download the script from [here](https://github.com/agudeloromero/Download_fasta_NCBI/blob/main/script/download_ncbi_fasta.py) and give it execution permissions on your machine:
-```
-chmod +x download_ncbi_fasta.py
-```
+## 1. [Download FASTA files from NCBI using an ID](https://github.com/agudeloromero/Download_fasta_NCBI/tree/main/Download_fasta_with_ID)
 
----
+This Python script downloads GenBank FASTA files. It supports two options: downloading a single reference ID and downloading multiple references from a file.
 
-**Examples**
+## 2. [Download Viral Genomes FASTA files and metadata from NCBI using esearch and fetch](https://github.com/agudeloromero/Download_fasta_NCBI/tree/main/Download_fasta_metadata_fetch)
 
-**(1) Single reference**
+This Python script downloads viral genomes in FASTA format from NCBI, as well as the metadata. It both, RefSeq and GenBank databases.
 
-To download a single reference FASTA:
-```
-python download_ncbi_fasta.py NC_074663.1 user@example.com output_folder
-```
 
-**(2) Multiple references**
-
-Create a text file (ie ids.txt) with one ID per line, like this:
-```
-NC_029066.1
-NC_002484.2
-NC_030929.1
-```
-
----
-
-**Run script:**
-
-```
-python download_ncbi_fasta.py ids.txt user@example.com output_folder
-```
-
----
-
-**Output:**
-
-Fasta files will be saved in the specified folder (in this case output_folder), with filenames corresponding to the reference IDs.
-```
-ll output_folder
-NC_029066.1.fasta
-NC_002484.2.fasta
-NC_030929.1.fasta
-```
 
 
