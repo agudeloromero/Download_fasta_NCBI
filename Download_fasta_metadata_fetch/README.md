@@ -12,9 +12,13 @@ chmod +x download_viral_genomes_metadata_NCBI_fetch.py
 ```
 
 2. Install Required Dependencies
+
 The script uses Python 3 and the following Python packages:
+
 * biopython
+
 * argparse
+
 Install them using `pip` (or your environment's package manager):
 ```bash
 pip install biopython argparse
