@@ -7,7 +7,7 @@ This Python script downloads viral genomes in FASTA format from NCBI, as well as
 ## **Setup:**
 
 **1. Download the script from [here](https://github.com/agudeloromero/Download_fasta_NCBI/blob/main/Download_fasta_metadata_fetch/download_viral_genomes_metadata_NCBI_fetch.py) and give it execution permissions on your machine:**
-``` bash
+```bash
 chmod +x download_viral_genomes.py
 ```
 
@@ -28,6 +28,7 @@ pip install biopython argparse
 
 You must provide an email address as NCBI requires it to identify users for API access.
 
+
 ## **Run script:**
 
 The script accepts several parameters, including the database (`genbank` or `refseq`), genome type (e.g., "complete genome"), and output directory.
@@ -43,6 +44,7 @@ For the `genbank` database:
 ```bash
 ./download_viral_genomes.py -d genbank -e user@example.com -g "complete genome" -o /path/to/output_directory
 ```
+
 
 ## **Output:**
 
@@ -61,6 +63,7 @@ CSV files containing metadata for each group will be saved in the output directo
 ```bash
 /dir/my_output/dsDnaViruses_genbank_metadata.csv
 ```
+
 
 ## **Help:**
 
