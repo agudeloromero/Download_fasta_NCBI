@@ -48,7 +48,7 @@ The script will create a multi FASTA files with all the viral sequences:
 
 **1. For genomes:**
 
-Fasta files for each group will be saved in the specified output directory. Example:
+The multi-FASTA file will be saved in the specified output directory. Example:
 ```bash
 /dir/output_directory/viral_complete_genomes_{database}.fna
 ```
