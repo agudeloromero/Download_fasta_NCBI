@@ -34,12 +34,12 @@ The script accepts several parameters such as database, output directory, and th
 
 For the `refseq` database:
 ```bash
-./PAR_ncbi-genome-download.py -d refseq -o /path/to/output_directory -p 6
+./PAR_ncbi-genome-download.py -d refseq -o /dir/output_directory -p 6
 ```
 
 For the `genbank` database:
 ```bash
-./PAR_ncbi-genome-download.py -d genbank -o /path/to/output_directory -p 6
+./PAR_ncbi-genome-download.py -d genbank -o /dir/output_directory -p 6
 ```
 
 ## **Output:**
