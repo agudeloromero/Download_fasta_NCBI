@@ -28,7 +28,7 @@ Create and Activate a Conda Environment
 
 Use the provided NCBI_Taxonomy_env.yml file to set up your environment.
 
-This script uses Python 3.9 or later. Use the provided [NCBI_Taxonomy_env.yml]() file to set up your environment.
+This script uses Python 3.9 or later. Use the provided [NCBI_Taxonomy_env.yml](https://github.com/agudeloromero/Download_fasta_NCBI/blob/main/download_viral_taxonomy_NCBI/NCBI_Taxonomy_env.yml) file to set up your environment.
 
 **1. Create the Environment**
 ```bash
