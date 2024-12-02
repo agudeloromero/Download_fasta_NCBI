@@ -6,15 +6,12 @@ channels:
 dependencies:
   # Python version
   - python=3.9
-  
+  - bbmap  # For deduplication
   # Required Python packages
   - pip
   - pip:
-    - os  # Standard library; no need to install separately
-    - argparse  # Standard library; no need to install separately
-    - subprocess  # Standard library; no need to install separately
-    - glob  # Standard library; no need to install separately
-  
-  # Additional tools
-  - aria2  # For downloading files
-  - bbmap  # For deduplication
+    - aria2  # For downloading files
+#    - os  # Standard library; no need to install separately
+#    - argparse  # Standard library; no need to install separately
+#    - subprocess  # Standard library; no need to install separately
+#    - glob  # Standard library; no need to install separately
