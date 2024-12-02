@@ -1,0 +1,11 @@
+name: NuclGBTaxID_env
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.9
+  - pip
+  - pip:
+    - aria2
+#    - os  # Standard library; no need to install separately
+#    - argparse  # Standard library; no need to install separately
+#    - subprocess  # Standard library; no need to install separately
