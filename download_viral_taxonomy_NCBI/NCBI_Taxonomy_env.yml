@@ -1,0 +1,15 @@
+name: NCBI_Taxonomy_env
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  # Python version
+  - python=3.9
+  # Required Python packages
+  - pip
+  - pip:
+    - aria2  # For downloading files
+#    - os  # Standard library; no need to install separately
+#    - argparse  # Standard library; no need to install separately
+#    - subprocess  # Standard library; no need to install separately
