@@ -1,45 +1,61 @@
 # Downloading_RefSeq_Viral_Genomes_from_the_NCBI_Website
 
-This Python script downloads the RefSeq viral genomes FASTA file [viral.1.1.genomic.fna.gz](https://ftp.ncbi.nlm.nih.gov/refseq/release/viral/viral.1.1.genomic.fna.gz) from [NCBI website](https://ftp.ncbi.nlm.nih.gov/refseq/release/viral/). It has two main streams:
+This Python script automates the download of RefSeq viral genomes in FASTA format [(viral.1.1.genomic.fna.gz)](https://ftp.ncbi.nlm.nih.gov/refseq/release/viral/viral.1.1.genomic.fna.gz) from the [NCBI website](https://ftp.ncbi.nlm.nih.gov/refseq/release/viral/). It offers two main functionalities:
 1. Download RefSeq viral genomes.
-2. Optinal deduplication step.
+2. Optional deduplication of sequences to remove duplicates from the downloaded multi-FASTA file.
+
+**Features**
+
+* Automatically downloads the viral genome file.
+* Unzips and processes the downloaded file.
+* Optionally filters duplicate FASTA sequences using bbmap's dedupe.sh.
+*  Supports customization of the download URL and output directory.
+* Generates a log file (dedupe.log) during deduplication.
+* Offers the option to clean up intermediate files.
 
 ## **Setup:**
 
-**1. Download the script from [here](https://github.com/agudeloromero/Download_fasta_NCBI/blob/main/Downloading_RefSeq_Viral_Genomes_from_the_NCBI_Website/refseq_viral_genomes_website.py) and give it execution permissions on your machine:**
+**1. Download the script from [here](https://github.com/agudeloromero/Download_fasta_NCBI/blob/main/Downloading_RefSeq_Viral_Genomes_from_the_NCBI_Website/refseq_viral_genomes_website.py) or clone it from this repository, then give it execution permissions on your machine:**
 ```bash
+git clone https://github.com/agudeloromero/Download_fasta_NCBI.git
+cd Download_fasta_NCBI/Downloading_RefSeq_Viral_Genomes_from_the_NCBI_Website
 chmod +x refseq_viral_genomes_website.py
 ```
 
-**2. Install Required Dependencies**
+## 2. Install Dependencies
 
-The script uses Python 3.9 or later and the following Python packages. You can save the [RefSeq_env.yml file](https://github.com/agudeloromero/Download_fasta_NCBI/blob/main/Downloading_RefSeq_Viral_Genomes_from_the_NCBI_Website/RefSeq_env.yml) in your environment and then:.
+**Create and Activate a Conda Environment**
 
-**Create a Conda Environment:**
+The script uses Python 3.9 or later. Use the provided [`RefSeq_env.yml`](https://github.com/agudeloromero/Download_fasta_NCBI/blob/main/Downloading_RefSeq_Viral_Genomes_from_the_NCBI_Website/RefSeq_env.yml) file to set up your environment.
+
+**1. Create a Conda Environment:**
 ``` bash
 conda env create -f RefSeq_env.yml
 ```
 
-**Activate the Environment:**
+**2. Activate the Environment:**
 ``` bash
 conda activate RefSeq_env
 ```
 
-**Notes**
+**Tools and Libraries**
 
-* The `aria2` and `bbmap tools` will be installed via `conda`.
-
-* Packages like `os`, `argparse`, `subprocess`, and `glob` are part of Python's standard library and don’t need to be installed via `pip`. They are listed in the `RefSeq_env.yml` file for documentation purposes only.
+* aria2c: For fast and efficient file downloads.
+* bbmap: For deduplication of multi-FASTA files.
+* Standard Python Libraries: Modules like `os`, `argparse`, `subprocess`, and `glob` are included in Python's standard library and do not require installation.
 
 ## **Run script:**
 
-**Basic:**
-```
+**1. Basic Usage**
+
+Run the script with default settings:
+```bash
 ./refseq_viral_genomes_website.py
 ```
+This downloads, unzips, and deduplicates the RefSeq viral genome file. The results are saved in a default directory named my_output.
 
-Output:
-```
+Default Output:
+```bash
 tree my_output
 my_output/
 ├── dedupe.log
@@ -47,37 +63,64 @@ my_output/
 └── viral.1.1.genomic_filtered.fna
 ```
 
-**Customised example1:**
+---
+
+**2. Custom Usage Examples**
+
+**Example 1: Specify Output Directory**
+Save results in a custom directory and remove intermediate files:
 ```
 ./refseq_viral_genomes_website.py --output-dir my_refseq --remove-intermediate
 ```
 
 Output:
-```
+```bash
 tree my_refseq/
 my_refseq/
 ├── dedupe.log
 └── viral.1.1.genomic_filtered.fna
 ```
 
-**Customised example2:**
-```
+---
+
+**Example 2: Custom Download URL**
+Download and process a custom file:
+```bash
 ./refseq_viral_genomes_website.py --url https://example.com/myfile.fna.gz --output-dir my_data --remove-intermediate
 ```
 
 Output:
-```
+```bash
 tree my_data/
 my_data/
 ├── dedupe.log
 └── myfile_filtered.fna
 ```
 
+---
+
+**Example 3: Skip Deduplication**
+If you do not want to perform deduplication:
+```bash
+./refseq_viral_genomes_website.py --skip-deduplication
+```
+
+Output:
+```bash
+tree my_data/
+my_data/
+└── viral.1.1.genomic.fna
+```
+
 ## **Help:**
 
-For more information run help.
+Run the script with --help to see all available options:
 ```bash
 ./refseq_viral_genomes_website.py --help
+```
+
+Help Menu:
+```plaintext
 usage: refseq_viral_genomes_website.py [-h] [--url URL] [--output-dir OUTPUT_DIR] [--skip-deduplication] [--remove-intermediate]
 
 Download, unzip, and optionally filter duplicate FASTA sequences.
