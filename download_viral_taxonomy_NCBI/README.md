@@ -50,7 +50,7 @@ conda activate NCBI_Taxonomy_env
 **1. Basic Usage**
 Run the script with default settings:
 ```bash
-./download_ncbi_taxonomy.py
+./download_viral_taxonomy_NCBI
 ```
 This downloads the `taxdump.tar.gz` file, extracts its contents into a default directory (`TAX_nt`), and removes the tarball after extraction.
 
@@ -74,7 +74,7 @@ TAX_nt/
 
 Save the extracted data to a custom directory:
 ```bash
-./download_ncbi_taxonomy.py --output-dir my_taxonomy_data
+./download_viral_taxonomy_NCBI.py --output-dir my_taxonomy_data
 ``
 
 Output:
@@ -94,7 +94,7 @@ my_taxonomy_data/
 ### Example 2: Custom Download URL
 Download a tarball from a custom URL:
 ```bash
-./download_ncbi_taxonomy.py --url ftp://example.com/my_taxonomy.tar.gz --output-dir custom_dir
+./download_viral_taxonomy_NCBI.py --url ftp://example.com/my_taxonomy.tar.gz --output-dir custom_dir
 ```
 
 Output:
@@ -115,12 +115,12 @@ custom_dir/
 
 Run the script with --help to see all available options:
 ```bash
-./download_ncbi_taxonomy.py --help
+./download_viral_taxonomy_NCBI.py --help
 ```
 
 Help Menu:
 ```
-usage: download_ncbi_taxonomy.py [-h] [--url URL] [--output-dir OUTPUT_DIR]
+usage: download_viral_taxonomy_NCBI.py [-h] [--url URL] [--output-dir OUTPUT_DIR]
 
 Download and extract the NCBI taxonomy dump.
 
