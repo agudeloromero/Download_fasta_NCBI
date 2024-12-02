@@ -20,6 +20,8 @@ You can save this [RefSeq_env.yml file](https://github.com/agudeloromero/Downloa
 conda env create -f RefSeq_env.yml
 ```
 
+**Notes**
+
 * The `aria2` and `bbmap tools` will be installed via `conda`.
 
 * Packages like `os`, `argparse`, `subprocess`, and `glob` are part of Python's standard library and don’t need to be installed via `pip`. They are listed in the `RefSeq_env.yml` file for documentation purposes only.
