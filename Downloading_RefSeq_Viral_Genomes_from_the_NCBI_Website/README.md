@@ -1,7 +1,7 @@
 # Downloading_RefSeq_Viral_Genomes_from_the_NCBI_Website
 
-This Python script downloads the RefSeq viral genomes FASTA file [viral.1.1.genomic.fna.gz](https://ftp.ncbi.nlm.nih.gov/refseq/release/viral/viral.1.1.genomic.fna.gz) from [NCBI website](https://ftp.ncbi.nlm.nih.gov/refseq/release/viral/)(https://ftp.ncbi.nlm.nih.gov/refseq/release/viral/). It has two main streams:
-1. RefSeq RefSeq viral genomes.
+This Python script downloads the RefSeq viral genomes FASTA file [viral.1.1.genomic.fna.gz](https://ftp.ncbi.nlm.nih.gov/refseq/release/viral/viral.1.1.genomic.fna.gz) from [NCBI website](https://ftp.ncbi.nlm.nih.gov/refseq/release/viral/). It has two main streams:
+1. Download RefSeq viral genomes.
 2. Optinal deduplication step.
 
 ## **Setup:**
