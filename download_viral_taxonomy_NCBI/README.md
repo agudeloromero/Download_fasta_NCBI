@@ -15,7 +15,7 @@ This Python script automates the download and extraction of the NCBI taxonomy du
 
 ### 1. Download the Script
 
-Clone the repository and navigate to the appropriate directory:
+Download the script from [here](https://github.com/agudeloromero/Download_fasta_NCBI/blob/main/download_viral_taxonomy_NCBI/download_viral_tax_NCBI.py) or Clone the repository and navigate to the appropriate directory:
 ```bash
 git clone https://github.com/agudeloromero/Download_fasta_NCBI.git
 cd Download_fasta_NCBI/Downloading_NCBI_Taxonomy
@@ -27,6 +27,8 @@ chmod +x download_ncbi_taxonomy.py
 Create and Activate a Conda Environment
 
 Use the provided NCBI_Taxonomy_env.yml file to set up your environment.
+
+This script uses Python 3.9 or later. Use the provided [NCBI_Taxonomy_env.yml]() file to set up your environment.
 
 **1. Create the Environment**
 ```bash
