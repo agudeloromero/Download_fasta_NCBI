@@ -13,9 +13,7 @@ chmod +x refseq_viral_genomes_website.py
 
 **2. Install Required Dependencies**
 
-The script uses Python 3.9 or later and the following Python packages.
-
-You can save this [RefSeq_env.yml file](https://github.com/agudeloromero/Download_fasta_NCBI/blob/main/Downloading_RefSeq_Viral_Genomes_from_the_NCBI_Website/RefSeq_env.yml).
+The script uses Python 3.9 or later and the following Python packages. You can save the [RefSeq_env.yml file](https://github.com/agudeloromero/Download_fasta_NCBI/blob/main/Downloading_RefSeq_Viral_Genomes_from_the_NCBI_Website/RefSeq_env.yml) in your environment and then:.
 
 **Create a Conda Environment:**
 ``` bash
