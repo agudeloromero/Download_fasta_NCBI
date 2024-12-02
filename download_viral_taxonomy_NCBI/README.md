@@ -35,7 +35,7 @@ This script uses Python 3.9 or later. Use the provided [NCBI_Taxonomy_env.yml](h
 conda env create -f NCBI_Taxonomy_env.yml
 ```
 
-**1. Activate the Environment
+**2. Activate the Environment**
 ```bash
 conda activate NCBI_Taxonomy_env
 ```
