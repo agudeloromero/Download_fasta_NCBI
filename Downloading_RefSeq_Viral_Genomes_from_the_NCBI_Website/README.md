@@ -32,3 +32,29 @@ conda activate RefSeq_env
 * Packages like `os`, `argparse`, `subprocess`, and `glob` are part of Python's standard library and don’t need to be installed via `pip`. They are listed in the `RefSeq_env.yml` file for documentation purposes only.
 
 ## **Run script:**
+Basic:
+```
+./refseq_viral_genomes_website.py
+```
+
+output:
+```
+tree my_output
+my_output/
+├── dedupe.log
+├── viral.1.1.genomic.fna
+└── viral.1.1.genomic_filtered.fna
+```
+
+Customise:
+```
+./refseq_viral_genomes_website.py --output-dir my_refseq --remove-intermediate
+```
+
+output:
+```
+tree my_refseq/
+my_refseq/
+├── dedupe.log
+└── viral.1.1.genomic_filtered.fna
+```
