@@ -1,6 +1,6 @@
 # Downloading NCBI Taxonomy Data from the FTP Website
 
-This Python script automates the download and extraction of the NCBI taxonomy dump from the FTP website [(ftp://ftp.ncbi.nlm.nih.gov/pub/taxonomy/taxdump.tar.gz)](ftp://ftp.ncbi.nlm.nih.gov/pub/taxonomy/taxdump.tar.gz). The taxonomy data is available as a tarball (`taxdump.tar.gz`) containing multiple files, which can be used for taxonomy-related analyses.
+This Python script automates the download and extraction of the NCBI taxonomy dump from the FTP website [(taxdump.tar.gz)](ftp://ftp.ncbi.nlm.nih.gov/pub/taxonomy/taxdump.tar.gz). The taxonomy data is available as a tarball (`taxdump.tar.gz`) containing multiple files, which can be used for taxonomy-related analyses.
 
 **Features**
 
