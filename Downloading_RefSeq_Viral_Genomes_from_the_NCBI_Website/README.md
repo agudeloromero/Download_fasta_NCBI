@@ -47,7 +47,7 @@ my_output/
 └── viral.1.1.genomic_filtered.fna
 ```
 
-**Customised:**
+**Customised example1:**
 ```
 ./refseq_viral_genomes_website.py --output-dir my_refseq --remove-intermediate
 ```
@@ -60,4 +60,34 @@ my_refseq/
 └── viral.1.1.genomic_filtered.fna
 ```
 
+**Customised example2:**
+```
+./refseq_viral_genomes_website.py --url https://example.com/myfile.fna.gz --output-dir my_data --remove-intermediate
+```
 
+Output:
+```
+tree my_data/
+my_data/
+├── dedupe.log
+└── myfile_filtered.fna
+```
+
+## **Help:**
+
+For more information run help.
+```bash
+./refseq_viral_genomes_website.py --help
+usage: refseq_viral_genomes_website.py [-h] [--url URL] [--output-dir OUTPUT_DIR] [--skip-deduplication] [--remove-intermediate]
+
+Download, unzip, and optionally filter duplicate FASTA sequences.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --url URL             URL to download the FASTA file. Default: RefSeq Viral Genomes
+  --output-dir OUTPUT_DIR
+                        Output directory for downloaded and processed files. Default: 'my_output'
+  --skip-deduplication  Skip the duplicate filtering step. Default: False (perform deduplication).
+  --remove-intermediate
+                        Remove intermediate files after deduplication.
+```
