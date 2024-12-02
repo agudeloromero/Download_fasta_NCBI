@@ -134,3 +134,12 @@ optional arguments:
   --remove-intermediate
                         Remove intermediate files after deduplication.
 ```
+
+## Contributing
+
+Contributions and feedback are welcome! If you encounter issues or have feature requests, feel free to open an issue in the [repository](https://github.com/agudeloromero/Download_fasta_NCBI/issues).
+
+## Acknowledgments
+
+* This script uses the [aria2c](https://github.com/aria2/aria2) tool for efficient file downloads.
+* Sequence deduplication is powered by the [bbmap](https://github.com/BioInfoTools/BBMap/blob/master/README.md) suite.
