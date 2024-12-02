@@ -1,0 +1,11 @@
+name: RefSeq_env
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - bbmap
+  - pip
+  - pip:
+      - aria2
