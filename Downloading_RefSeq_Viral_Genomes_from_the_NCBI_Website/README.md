@@ -13,17 +13,15 @@ chmod +x PAR_ncbi-genome-download.py
 
 **2. Install Required Dependencies**
 
-The script uses Python 3.8 or later and the following Python packages. Required Python libraries:
-* ncbi-genome-download
-* argparse
-* subprocess
-* glob
-* os
-* shutil
+The script uses Python 3.9 or later and the following Python packages.
 
-Install them using `pip` (or your environment's package manager):
+You can save this [`RefSeq_env.yml` file](https://github.com/agudeloromero/Download_fasta_NCBI/blob/main/Downloading_RefSeq_Viral_Genomes_from_the_NCBI_Website/RefSeq_env.yml) and create your environment using the command:
 ``` bash
-pip install ncbi-genome-download argparse glob os shutil
+conda env create -f RefSeq_env.yml
 ```
+
+* The `aria2` and `bbmap tools` will be installed via `conda`.
+
+* Packages like `os`, `argparse`, `subprocess`, and `glob` are part of Python's standard library and don’t need to be installed via `pip`. They are listed in the `RefSeq_env.yml` file for documentation purposes only.
 
 ## **Run script:**
