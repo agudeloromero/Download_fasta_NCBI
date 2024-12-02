@@ -4,7 +4,7 @@ import subprocess
 import glob
 
 """
-Patricia Agudelo-Romero
+Patricia Agudelo-Romero, PhD.
 """
 
 def download_and_unzip(url, output_dir):
