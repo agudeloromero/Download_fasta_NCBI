@@ -1,4 +1,4 @@
-# Downloading_RefSeq_Viral_Genomes_from_the_NCBI_Website
+# Downloading RefSeq Viral Genomes from the NCBI_Website
 
 This Python script automates the download of RefSeq viral genomes in FASTA format [(viral.1.1.genomic.fna.gz)](https://ftp.ncbi.nlm.nih.gov/refseq/release/viral/viral.1.1.genomic.fna.gz) from the [NCBI website](https://ftp.ncbi.nlm.nih.gov/refseq/release/viral/). It offers two main functionalities:
 1. Download RefSeq viral genomes.
