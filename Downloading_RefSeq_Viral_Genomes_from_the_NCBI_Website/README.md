@@ -6,9 +6,9 @@ This Python script downloads the RefSeq viral genomes FASTA file [viral.1.1.geno
 
 ## **Setup:**
 
-**1. Download the script from [here](https://github.com/agudeloromero/Download_fasta_NCBI/blob/main/ViralGenomes_ncbi-genome-download/PAR_ncbi-genome-download.py) and give it execution permissions on your machine:**
+**1. Download the script from [here](https://github.com/agudeloromero/Download_fasta_NCBI/blob/main/Downloading_RefSeq_Viral_Genomes_from_the_NCBI_Website/refseq_viral_genomes_website.py) and give it execution permissions on your machine:**
 ```bash
-chmod +x PAR_ncbi-genome-download.py
+chmod +x refseq_viral_genomes_website.py
 ```
 
 **2. Install Required Dependencies**
