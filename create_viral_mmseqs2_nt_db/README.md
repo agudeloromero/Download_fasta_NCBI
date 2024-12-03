@@ -13,7 +13,7 @@ This Python script automates the creation of an MMseqs2 viral nucleotide databas
 
 Environment Installation
 
-Save the following YAML file as `MMSeqs2_env.yml`:
+Save the following YAML file as [`MMSeqs2_env.yml`](https://github.com/agudeloromero/Download_fasta_NCBI/blob/main/create_viral_mmseqs2_nt_db/MMSeqs2_env.yml):
 ```yaml
 name: MMSeqs2_env
 channels:
