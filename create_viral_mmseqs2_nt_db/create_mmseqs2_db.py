@@ -54,11 +54,6 @@ def main():
         default="MMSEQ_Viral_DB_nt",
         help="Directory to store the MMseqs2 viral nucleotide database. Default: MMSEQ_Viral_DB_nt."
     )
-    parser.add_argument(
-        "--keep-intermediate",
-        action="store_true",
-        help="Keep intermediate files instead of deleting them."
-    )
     
     args = parser.parse_args()
 
@@ -76,16 +71,6 @@ def main():
         f"--tax-mapping-file {args.viral_taxid}"
     )
     run_command(taxdb_command)
-
-    # Step 3: Remove intermediate files (optional)
-    if not args.keep_intermediate:
-        print("Removing intermediate files...")
-        if os.path.exists("DB_virus/"):
-            run_command("rm -r DB_virus/")
-        if os.path.exists(args.viral_taxid):
-            run_command(f"rm -r {args.viral_taxid}")
-    else:
-        print("Intermediate files are retained.")
 
     print(f"MMseqs2 database created successfully in {args.output_dir}")
 
