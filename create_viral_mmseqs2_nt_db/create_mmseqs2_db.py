@@ -4,9 +4,9 @@ import os
 import argparse
 import subprocess
 
-"""
-Patricia Agudelo-Romero,PhD.
-"""
+#"""
+#Patricia Agudelo-Romero,PhD.
+#"""
 
 def create_directory(directory):
     """Create a directory if it does not exist."""
