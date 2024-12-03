@@ -117,4 +117,11 @@ optional arguments:
                         Directory to store the MMseqs2 viral nucleotide database. Default: MMSEQ_Viral_DB_nt.
 ```
 
+## Contributing
 
+Contributions are welcome! If you encounter issues or have feature requests, feel free to open an issue or a pull request in this [repository](https://github.com/agudeloromero/Download_fasta_NCBI/issues).
+
+## Acknowledgments
+
+* [MMseqs2](https://github.com/soedinglab/MMseqs2): The core tool used for creating the sequence database.
+* NCBI Taxonomy Database: Provides the taxonomy and taxid mapping data.
