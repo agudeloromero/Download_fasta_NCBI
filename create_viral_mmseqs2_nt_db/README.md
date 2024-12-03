@@ -1,6 +1,6 @@
 # Creating MMseqs2 Viral Nucleotide Database with Taxonomy Integration
 
-This Python script automates the creation of an MMseqs2 viral nucleotide database, integrates taxonomy data, and applies taxid mapping for taxonomic classification analysis. The script also provides options to remove intermediate files by default or keep them for further inspection.
+This Python script [(`create_mmseqs2_db.py`)](https://github.com/agudeloromero/Download_fasta_NCBI/blob/main/create_viral_mmseqs2_nt_db/create_mmseqs2_db.py) automates the creation of an MMseqs2 viral nucleotide database, integrates taxonomy data, and applies taxid mapping for taxonomic classification analysis. The script also provides options to remove intermediate files by default or keep them for further inspection.
 
 ## Features
 
@@ -32,9 +32,9 @@ conda activate MMSeqs2_env
 
 **Input Files**
 
-* Viral multi-FASTA: `dir/viral.1.1.genomic_filtered.fna`.
-* Taxid mapping: `dir/viral.fna.taxidmapping`.
-* NCBI taxonomy directory: `dir/TAX_nt`.
+* Viral multi-FASTA file: `dir/viral.1.1.genomic_filtered.fna`.
+* Viral taxid mapping file: `dir/viral.fna.taxidmapping`.
+* NCBI taxonomy nucleotide directory: `dir/TAX_nt`.
 
 
 ## Usage
