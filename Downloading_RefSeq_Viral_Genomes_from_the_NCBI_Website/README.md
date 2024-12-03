@@ -8,8 +8,8 @@ This Python script automates the download of RefSeq viral genomes in FASTA forma
 
 * Automatically downloads the viral genome file.
 * Unzips and processes the downloaded file.
-* Optionally filters duplicate FASTA sequences using bbmap's dedupe.sh.
-*  Supports customization of the download URL and output directory.
+* By default, it filters duplicate FASTA sequences using bbmap's dedupe.sh.
+* Supports customization of the download URL and output directory.
 * Generates a log file (dedupe.log) during deduplication.
 * Offers the option to clean up intermediate files.
 
