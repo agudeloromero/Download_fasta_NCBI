@@ -33,7 +33,7 @@ conda activate MMSeqs2_env
 
 * Viral multi-FASTA file: `dir/viral.1.1.genomic_filtered.fna`.
 * Viral taxid mapping file: `dir/viral.fna.taxidmapping`.
-* NCBI taxonomy nucleotide directory: `dir/TAX_nt`.
+* NCBI taxonomy nucleotide directory path: `dir/TAX_nt`.
 
 
 ## Usage
