@@ -47,6 +47,7 @@ Basic Command:
                        --viral-taxid my_taxid/viral.fna.taxidmapping \
                        --taxonomy-dir TAX_nt
 ```
+It is important to keep default folder name is the aim is to run the database for [EVEREST_nf](https://github.com/agudeloromero/everest_nf).
 
 Output Structure:
 ```bash
@@ -73,7 +74,6 @@ Specify an output directory:
                        --taxonomy-dir TAX_nt \
                        --output-dir Custom_DB
 ```
-It is important to keep this folder name is the aim is to run EVEREST.
 
 Output Structure:
 ```bash
@@ -90,6 +90,7 @@ Custom_DB/
 ├── viral.nt.fnaDB_mapping
 └── viral.nt.fnaDB_taxonomy
 ```
+
 
 ## Help Menu
 
