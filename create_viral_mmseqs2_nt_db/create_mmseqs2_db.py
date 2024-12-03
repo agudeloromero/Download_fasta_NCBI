@@ -5,7 +5,7 @@ import argparse
 import subprocess
 
 """
-Patricia Agudelo-Romero, PhD.
+Patricia Agudelo-Romero,PhD.
 """
 
 def create_directory(directory):
@@ -76,4 +76,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
