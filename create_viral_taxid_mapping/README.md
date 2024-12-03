@@ -1,4 +1,4 @@
-# Creating Viral Taxid Mapping with BLAST Tools
+# Creating Viral Taxid Mapping with `BLAST+` Tools
 
 This Python script automates the process of creating a viral taxid mapping file from a GenBank taxid file. It builds a BLAST database using a viral multi-FASTA file, matches the taxids present in the database, and generates a mapping file linking viral sequence accessions to their corresponding taxids.
 
