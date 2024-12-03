@@ -4,9 +4,9 @@ import os
 import argparse
 import subprocess
 
-"""
-Patricia Agudelo-Romero, PhD.
-"""
+#"""
+#Patricia Agudelo-Romero, PhD.
+#"""
 
 def create_output_dir(directory):
     """Ensure the output directory exists."""
