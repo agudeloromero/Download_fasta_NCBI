@@ -37,7 +37,9 @@ conda env create -f TaxidMapping_env.yml
 conda activate TaxidMapping_env
 ```
 
-## Example input of nucleotide GenBank taxid (nucl_gb.accession2taxid)[https://ftp.ncbi.nih.gov/pub/taxonomy/accession2taxid/].
+## Input Example
+
+This is the nucleotide GenBank taxid file [nucl_gb.accession2taxid](https://ftp.ncbi.nih.gov/pub/taxonomy/accession2taxid/).
 ```bash
 head my_taxid/nucl_gb.accession2taxid
 accession       accession.version       taxid   gi
