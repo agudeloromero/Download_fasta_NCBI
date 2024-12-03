@@ -1,0 +1,12 @@
+name: MMSeqs2_env
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - python>=3.9
+  - mmseqs2
+#  - pip
+#  - pip:
+#      - os
+#      - argparse
+#      - subprocess
