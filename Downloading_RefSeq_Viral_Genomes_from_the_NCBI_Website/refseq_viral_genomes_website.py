@@ -1,11 +1,13 @@
+#!/usr/bin/env python3
+
 import os
 import argparse
 import subprocess
 import glob
 
-"""
-Patricia Agudelo-Romero, PhD.
-"""
+#"""
+#Patricia Agudelo-Romero, PhD.
+#"""
 
 def download_and_unzip(url, output_dir):
     """
