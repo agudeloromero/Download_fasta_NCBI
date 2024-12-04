@@ -4,11 +4,11 @@ import sys
 import os
 from Bio import Entrez
 
+__author__ = "Patricia Agudelo-Romero, PhD."
+
 def download_fasta(reference_id, email, output_folder):
     """
     Downloads a FASTA file from NCBI GenBank using a reference ID.
-    Patricia Agudelo-Romero, PhD
-
     Args:
         reference_id (str): The GenBank reference ID (e.g., NC_074663.1).
         email (str): Email address for NCBI API usage (required by NCBI).
@@ -37,7 +37,6 @@ def download_fasta(reference_id, email, output_folder):
 def process_input(input_path):
     """
     Reads reference IDs from a file or processes a single ID.
-
     Args:
         input_path (str): Path to a file containing IDs or a single ID string.
 
