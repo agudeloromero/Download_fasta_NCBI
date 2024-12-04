@@ -1,1 +1,13 @@
+name: TaxidMapping_env
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - python>=3.9
+  - blast
+#  - pip
+#  - pip:
+#      - os
+#      - argparse
+#      - subprocess
 
