@@ -1,0 +1,15 @@
+name: TaxidMapping_fromFiles_env
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+    - pandas
+    - dask
+    - tqdm
+    - dask-expr
+#    - os
+#    - argparse
+#    - subprocess
