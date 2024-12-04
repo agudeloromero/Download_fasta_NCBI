@@ -6,11 +6,14 @@ import subprocess
 import glob
 import shutil
 
+
+__author__ = "Patricia Agudelo-Romero, PhD."
+
+
 def download_viral_genomes(database, output_dir, parallel, assembly_levels="complete", formats="fasta", dry_run=False, metadata_table=None):
     """
     Download viral genomes using ncbi-genome-download with user-defined parameters.
     Process the downloaded files: unzip, concatenate, and clean up.
-    Patricia Agudelo-Romero, PhD.
     
     Args:
         database (str): 'genbank' or 'refseq'.
@@ -61,7 +64,6 @@ def download_viral_genomes(database, output_dir, parallel, assembly_levels="comp
 def process_downloaded_files(output_dir, database):
     """
     Process the downloaded genome files: unzip, concatenate, and clean up.
-    Patricia Agudelo-Romero, PhD.
     
     Args:
         output_dir (str): Directory where genomes are saved.
