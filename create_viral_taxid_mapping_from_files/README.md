@@ -1,4 +1,4 @@
-# Creating Viral Taxid Mapping using multi-FASTA and the nucleotide GenBank taxid file `nucl_gb.accession2taxid` files.
+# Creating Viral Taxid Mapping using the viral multi-FASTA and the nucleotide GenBank taxid file `nucl_gb.accession2taxid` files.
 
 This Python script automates the process of creating a viral taxid mapping file by filtering sequence IDs from a multi-FASTA file and mapping them to taxids from a nucleotide GenBank taxid file. The script uses `Dask` for efficient large-file processing and supports chunk-wise reading with `pandas`.
 
