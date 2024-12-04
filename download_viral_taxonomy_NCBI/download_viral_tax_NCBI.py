@@ -4,9 +4,9 @@ import os
 import argparse
 import subprocess
 
-"""
-Patricia Agudelo-Romero, PhD.
-"""
+
+__author__ = "Patricia Agudelo-Romero, PhD."
+
 
 def download_and_extract_taxonomy(url, output_dir):
     """
