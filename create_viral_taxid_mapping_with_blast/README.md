@@ -18,8 +18,8 @@ This Python script automates the process of creating a viral taxid mapping file 
 Download the script [here](https://github.com/agudeloromero/Download_fasta_NCBI/blob/main/create_viral_taxid_mapping_with_blast/create_viral_taxid_mapping_blast.py) or clone the repository and navigate to the appropriate directory:
 ```bash
 git clone https://github.com/agudeloromero/Download_fasta_NCBI.git
-cd Download_fasta_NCBI/Create_Viral_Taxid_Mapping
-chmod +x create_viral_taxid_mapping.py
+cd Download_fasta_NCBI/create_viral_taxid_mapping_with_blast
+chmod +x create_viral_taxid_mapping_blast.py
 ```
 
 ## 2. Install Dependencies
@@ -29,7 +29,7 @@ Use the provided [`TaxidMapping_env.yml`](https://github.com/agudeloromero/Downl
 
 **1. Create the Environment**
 ```bash
-conda env create -f TaxidMapping_env.yml
+conda env create -f TaxidMapping_withBlast_env.yml
 ```
 
 **2. Activate the Environment**
