@@ -1,4 +1,4 @@
-name: TaxidMapping_env
+name: TaxidMapping_withBlast_env
 channels:
   - bioconda
   - conda-forge
