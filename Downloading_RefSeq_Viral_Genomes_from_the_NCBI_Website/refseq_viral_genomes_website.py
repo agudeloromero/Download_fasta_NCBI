@@ -5,9 +5,9 @@ import argparse
 import subprocess
 import glob
 
-#"""
-#Patricia Agudelo-Romero, PhD.
-#"""
+
+__author__ = "Patricia Agudelo-Romero, PhD."
+
 
 def download_and_unzip(url, output_dir):
     """
