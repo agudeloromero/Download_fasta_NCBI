@@ -4,9 +4,9 @@ import os
 import argparse
 import subprocess
 
-"""
-Patricia Agudelo-Romero, PhD.
-"""
+
+__author__ = "Patricia Agudelo-Romero, PhD."
+
 
 def download_file(url, output_dir):
     """Download the file from the given URL to the specified output directory."""
