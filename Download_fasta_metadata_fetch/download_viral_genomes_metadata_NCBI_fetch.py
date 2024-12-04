@@ -8,6 +8,8 @@ import random
 from Bio import Entrez
 from Bio import SeqIO
 
+__author__ = "Patricia Agudelo-Romero, PhD."
+
 def fetch_genome_ids(query, email, batch_size=5000, max_retries=5):
     """
     Fetch genome IDs in smaller paginated batches to avoid timeouts.
