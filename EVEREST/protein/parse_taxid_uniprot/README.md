@@ -16,7 +16,7 @@ This Python script processes UniProt-formatted multi-FASTA files to extract sequ
 
 Clone the repository and navigate to the directory:
 ```bash
-git clone [https://github.com/<your-repo>/parse-taxid-uniprot.git](https://github.com/agudeloromero/Download_fasta_NCBI/edit/main/EVEREST/protein/parse_taxid_uniprot.git)
+git clone [https://github.com/agudeloromero/Download_fasta_NCBI/edit/main/EVEREST/protein/parse_taxid_uniprot.git](https://github.com/agudeloromero/Download_fasta_NCBI/edit/main/EVEREST/protein/parse_taxid_uniprot)
 cd parse-taxid-uniprot
 chmod +x parse_taxid_uniprot.py
 ```
@@ -125,7 +125,7 @@ Contributions and feedback are welcome! Report issues or request features in the
 McKinney, W., & others. (2010). Data structures for statistical computing in python. In Proceedings of the 9th Python in Science Conference (Vol. 445, pp. 51–56).
 
 
-
+---
 
 
 
