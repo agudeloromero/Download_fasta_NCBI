@@ -16,8 +16,8 @@ This Python script processes UniProt-formatted multi-FASTA files to extract sequ
 
 Clone the repository and navigate to the directory:
 ```bash
-git clone https://github.com/agudeloromero/Download_fasta_NCBI/edit/main/EVEREST/protein/parse_taxid_uniprot.git
-cd parse-taxid-uniprot
+git clone https://github.com/agudeloromero/Download_fasta_NCBI.git
+cd EVEREST/protein/parse_taxid_uniprot
 chmod +x parse_taxid_uniprot.py
 ```
 
