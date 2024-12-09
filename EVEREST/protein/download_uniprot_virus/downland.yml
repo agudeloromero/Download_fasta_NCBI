@@ -8,6 +8,6 @@ dependencies:
   - pip                                                                         
   - pip:                                                                        
       - aria2==0.0.1b0  # For downloading files
-      - tqdm==4.67.0
+      - tqdm==4.67.0    # Progressing bar
 #      - argparse
       
