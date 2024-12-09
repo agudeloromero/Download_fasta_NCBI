@@ -111,7 +111,7 @@ Run the script with `--help` to see all available options:
 ```
 
 Help Menu:
-```bash
+```plaintext
 usage: download_uniprot_virus.py [-h] --db {swissprot,trembl} [--output-dir OUTPUT_DIR]
 
 Download viral proteomes from UniProt using aria2.
@@ -122,7 +122,6 @@ optional arguments:
                         Specify the database: 'swissprot' or 'trembl'.
   --output-dir OUTPUT_DIR
                         Directory to save the downloaded files.
-
 ```
 
 ## Contributing
