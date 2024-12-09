@@ -22,11 +22,25 @@ Clone this repository and navigate to the script directory:
 ```bash
 git clone https://github.com/agudeloromero/Download_fasta_NCBI.git
 cd Download_fasta_NCBI/EVEREST/protein/download_uniprot_virus/
+chmod +x download_uniprot_virus.py
 ```
 
-**Install necessary dependencies:**
+## Install necessary dependencies
+
+Install Dependencies
+
+Create and Activate a Conda Environment
+
+Use the provided `download.yml` file to set up your environment.
+
+**1. Create the Environment**
 ```bash
-pip install argparse aria2
+conda env create -f download.yml
+```
+
+**2. Activate the Environment**
+```bash
+conda activate download
 ```
 
 ## Usage
