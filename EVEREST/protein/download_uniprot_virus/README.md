@@ -59,12 +59,12 @@ python download_uniprot_virus_aria.py --db <database>
 
 Download viral proteomes from the Swiss-Prot database:
 ```bash
-python download_uniprot_virus_aria.py --db swissprot
+python download_uniprot_virus.py --db swissprot
 ```
 
 Download viral proteomes from the TrEMBL database:
 ```bash
-python download_uniprot_virus_aria.py --db trembl
+python download_uniprot_virus.py --db trembl
 ```
 
 ### Output
