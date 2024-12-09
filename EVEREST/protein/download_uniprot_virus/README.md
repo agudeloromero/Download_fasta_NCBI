@@ -20,8 +20,8 @@ This Python script allows users to download viral proteomes from the UniProt dat
 ## Installation
 Clone this repository and navigate to the script directory:
 ```bash
-git clone <repository-url>
-cd <repository-directory>
+git clone https://github.com/agudeloromero/Download_fasta_NCBI.git
+cd Download_fasta_NCBI/EVEREST/protein/download_uniprot_virus/download_uniprot_virus.py 
 ```
 
 **Install necessary dependencies:**
