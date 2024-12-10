@@ -101,7 +101,6 @@ Downloads and extracts the NCBI taxonomy dump, storing the data in the specified
 **`build_mmseqs_db(fasta_path, taxid_path, taxonomy_dir, db_output_dir)`**
 
 Creates an MMseqs2 database by combining:
-
       * Processed FASTA data.
       * Extracted taxonomic IDs.
       * NCBI taxonomy files.
