@@ -78,21 +78,33 @@ Keep Intermediate Files
 ## Functions Overview
 
 `check_file_exists(file_path, description)`
+
 Ensures required files are available.
 
+
 `download_with_progress(url, output_path)`
+
 Downloads files with `aria2c` and provides real-time progress updates.
 
+
 `decompress_fasta_gz(input_gz_path, output_fasta_path)`
+
 Decompresses `.fasta.gz` files to `.fasta` format.
 
+
 `parse_fasta_to_dataframe_with_progress(file_path, output_file)`
+
 Parses FASTA headers to extract sequence identifiers and taxonomic IDs into a TSV file.
 
+
 `download_and_extract_taxonomy(url, output_dir)`
+
 Downloads and extracts the NCBI taxonomy dump, storing the data in the specified directory (default: `TAX/`).
 
+
 `build_mmseqs_db(fasta_path, taxid_path, taxonomy_dir, db_output_dir)`
+
+
 Creates an MMseqs2 database by combining:
 
 * Processed FASTA data.
