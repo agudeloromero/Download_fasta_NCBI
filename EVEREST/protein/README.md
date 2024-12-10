@@ -142,5 +142,5 @@ Contributions and feedback are welcome! Report issues or request features in the
 - [`gzip`](https://docs.python.org/3/library/gzip.html): To decompress `.fasta.gz` files.
 - [`pandas`](https://pandas.pydata.org/): For parsing and managing extracted data.
 - [`MMseqs2`](https://github.com/soedinglab/MMseqs2): For database creation and taxonomy processing.
-- [`NCBI`](ftp://ftp.ncbi.nlm.nih.gov/pub/taxonomy/): Provides the taxonomy database (taxdump).
+- [`NCBI`](https://ftp.ncbi.nlm.nih.gov/pub/taxonomy/): Provides the taxonomy database (taxdump).
 - [`UNIPROT`](https://www.uniprot.org/taxonomy/10239): Provides the viral proteomes (Swiss-Prot | TrEMB).
