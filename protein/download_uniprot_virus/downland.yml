@@ -1,0 +1,13 @@
+Name: download                                                                  
+channels:                                                                       
+ - bioconda                                                                    
+ - conda-forge                                                                 
+ - defaults                                                                    
+dependencies:                                                                   
+  - python=3.9                                                                                                           
+  - pip                                                                         
+  - pip:                                                                        
+      - aria2==0.0.1b0  # For downloading files
+      - tqdm==4.67.0    # Progressing bar
+#      - argparse
+      
