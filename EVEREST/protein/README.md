@@ -48,7 +48,7 @@ Download and Process SwissProt Database
 Download and Process TrEMBL Database
 ```bash
 ./script.py --db trembl
-``
+```
 
 Specify Custom Output Path
 ```bash
@@ -71,9 +71,9 @@ Keep Intermediate Files
 2. TaxID TSV: A tab-separated file mapping sequence identifiers to taxonomic IDs.
 3. NCBI Taxonomy Data: Extracted taxonomy files stored in the `TAX/` directory.
 4. MMseqs2 Database: A ready-to-use database in `DB_MMSEQ2_aa/` combining:
-* Viral proteomes (`FASTA` file).
-* Taxonomic IDs (`TaxID TSV`).
-* NCBI taxonomy data (`TAX/` directory).
+    * Viral proteomes (`FASTA` file).
+    * Taxonomic IDs (`TaxID TSV`).
+    * NCBI taxonomy data (`TAX/` directory).
 
 ## Functions Overview
 
