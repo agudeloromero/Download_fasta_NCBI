@@ -10,11 +10,6 @@ This script automates downloading, processing, and preparing viral proteomes and
 - Downloads and extracts NCBI taxonomy data, storing it in the `TAX/` directory.
 - Combines FASTA, TaxID TSV, and taxonomy data into an MMseqs2 database for proteomic analysis.
 
-## Dependencies
-
-
-- Python 3.8+.
-
 ## Setup
 
 ### Install Dependencies
@@ -23,21 +18,9 @@ This script automates downloading, processing, and preparing viral proteomes and
 
 Create a Conda environment with the following command:
 ```bash
-conda create -n uniprot python=3.9 pandas -y
+conda env create -f uniprot.yml
 conda activate uniprot
 ```
-
-3. **Install External Tools**
-
-Ensure aria2c and mmseqs are installed and available in your $PATH.
-For Ubuntu/Debian:
-```bash
-sudo apt install aria2
-wget https://mmseqs.com/latest/mmseqs-linux-avx2.tar.gz
-tar -xvzf mmseqs-linux-avx2.tar.gz
-export PATH=$PATH:/path/to/mmseqs/bin
-```
-
 ## Example Workflow
 
 Download and Process SwissProt Database
