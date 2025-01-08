@@ -16,7 +16,7 @@ This script automates downloading, processing, and preparing viral proteomes and
 
 1. **Conda Environment Setup**
 
-Create a Conda environment with the following command:
+Create a Conda environment with the following command usign the `yml` file [here](https://github.com/agudeloromero/Download_fasta_NCBI/blob/main/EVEREST/protein/uniprot.yml):
 ```bash
 conda env create -f uniprot.yml
 conda activate uniprot
